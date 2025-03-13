@@ -1,6 +1,6 @@
-import SimpleLightbox from "simplelightbox";
-import images from "./imagesData.json";
+import images from './imagesData.json';
 import { createGalleryImagesTemplate } from './function';
+import SimpleLightbox from "simplelightbox";
 
 const galleryList = document.querySelector(".gallery")
 galleryList.innerHTML = createGalleryImagesTemplate(images);
