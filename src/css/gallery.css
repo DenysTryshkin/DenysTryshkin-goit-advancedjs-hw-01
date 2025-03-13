@@ -1,0 +1,8 @@
+@import url("simplelightbox/dist/simple-lightbox.min.css");
+
+.gallery {
+    padding: 24px 156px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
