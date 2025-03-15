@@ -58,6 +58,10 @@ const onFeedbackFormSubmit = event => {
     
     console.log(formData);
 
+    Object.keys(formData).forEach(key => {
+        formData[key] = '';
+    });
+
     event.currentTarget.reset();
     localStorage.removeItem('feedback-form-state');
 };
